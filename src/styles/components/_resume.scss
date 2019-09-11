@@ -1,30 +1,6 @@
 .resume {
-  margin-top: $xl-size;
+  margin-top: $xl-size + $l-size;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.resume__button {
-  text-decoration: none;
-  text-align: center;
-  color: $light-brown;
-  background-color: $dark-brown;
-  border: none;
-  width: 10rem;
-  padding: $xs-size;
-  margin: $l-size auto;
-  outline: none;
-  border-radius: $xs-size;
-}
-
-.resume__button:hover {
-  color: lighten($light-brown, 10%);
-  background-color: lighten($dark-brown, 10%);
-}
-
-.resume__button:active {
-  color: darken($light-brown, 5%);
-  background-color: darken($dark-brown, 5%);
-  border: none;
 }
