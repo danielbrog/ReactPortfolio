@@ -1,5 +1,13 @@
 const projectInfo = [
   {
+    title: "InvestApp",
+    image: "./images/investapp.webp",
+    url: "https://investapp.danielbrog.com/login",
+    github: "https://github.com/danielbrog/team-latte",
+    description:
+      "Launch projects that you need investments to run successfully, or invest in projects that you think will be successful."
+  },
+  {
     title: "Baseball Stat Visualization",
     image: "./images/baseballIcon.webp",
     url: "/visualization_app",
@@ -13,14 +21,6 @@ const projectInfo = [
     url: "/weather",
     github: "https://github.com/danielbrog/NodeWeather",
     description: "Finds the weather using an external API. Written in NodeJS."
-  },
-  {
-    title: "Task App with login",
-    image: "./images/tasksIcon.webp",
-    url: "/login",
-    github: "https://github.com/danielbrog/NodeSite",
-    description:
-      "Save tasks online in a MongoDB Database on the server.  Must be logged in to use and save.  Written in NodeJS."
   },
   {
     title: "Expenses App",
