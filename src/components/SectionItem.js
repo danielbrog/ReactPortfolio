@@ -25,7 +25,7 @@ const SectionItem = (props) => {
             <p className="sectionItem__title">{title}</p>
             <p className="sectionItem__description">{description}</p>
             <div className="sectionItem__Links">
-                <a href={url}className="sectionItem__Links__button">View Page</a>
+                {url && <a href={url}className="sectionItem__Links__button">View Page</a>}
                 <a href={github}className="sectionItem__Links__button">View Code</a>
             </div>
         </div>
