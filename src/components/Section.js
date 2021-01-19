@@ -11,7 +11,7 @@ const Section = ({title, items=[]}) => (
         {items.map(item => 
             {if(item.list){
                 return <SectionItem key={item.title} info={item}/>
-            } else if(item.url){
+            } else {
                 return <SectionItem key={item.title} link={item}/>
             }}
             
