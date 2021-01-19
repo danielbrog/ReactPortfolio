@@ -11,7 +11,6 @@ const projectInfo = [
     title: "Restaurant Search",
     image:
       "https://camo.githubusercontent.com/44124fc61dd03c3560bffd418bdf9bb5b9a521bf/68747470733a2f2f692e696d6775722e636f6d2f614c55534878452e706e67",
-    url: "https://danielbrog.github.io/foodsearch/",
     github: "https://github.com/danielbrog/foodsearch",
     description:
       "Find a restaraunt that is close to you. Using React with Jest testing and strict WCAG compliance.",
